@@ -5,18 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Las mejores peliculas nuevas</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="body">
-      <h1>Do you want to see a good movie?</h1>
-      <ul>
-        <li><button id="sequence">Get Top Movies in Sequence</button></li>
-        <li><button id="parallel">Get Top Movies in Parallel</button></li>
-        <button id="fastest">Get Fastest Top Movie</button>
+    <span class="body">
+      <span class="titulo">
+      <h1>Do you want to see a movie?</h1>
+      <p>Here I have some examples</p>
+    </span>
+      <ul class="container">
+        <button class="botones"id="random">Get 6 randoms Movie</button>
+        <button class="botones"id="parallel">Get 9 Top Movies </button>
+        <button class="botones"id="fastest">Get Fastest Top Movie</button>
       </ul>
 
-      <ul id="movies"></ul>
-    </div>
+      <ul id="movies" class="product-container"></ul>
+    </span>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
