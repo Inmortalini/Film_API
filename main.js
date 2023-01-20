@@ -68,7 +68,8 @@ function renderMovies(movies) {
         <img src="https://image.tmdb.org/t/p/w342${element.poster_path}" />
         <h4>${element.title}</h4>
         <p>Released on <em>${element.release_date}</em></p>
-        <p>Puntuacion de IMDB<h5>${element.vote_average}</h5></p>
+        <p class="SmallText">${element.overview}</p>
+        <p>Puntuacion de ${element.vote_average.toFixed(1)}</p>
         `;
 
     movieList.appendChild(listItem);

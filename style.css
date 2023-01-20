@@ -1,6 +1,7 @@
 :root {
     --white: #ffffff;
     --black: #000000;
+    --veryDarkGrey: #717D7E;
     --very-light-pink: #c7c7c7;
     --text-input-field: #f7f7f7;
     --hospital-green: #acd9b2;
@@ -55,4 +56,8 @@
     height: 360px;
     border-radius: 20px;
     object-fit: cover;
+  }
+  .SmallText{
+    color:var(--veryDarkGrey);
+    font-size: var(--sm);
   }
